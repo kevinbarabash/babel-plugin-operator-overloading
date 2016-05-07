@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-operator-overloading",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "operator overloading transform plugin for babel",
   "main": "./dist/index.js",
   "scripts": {
