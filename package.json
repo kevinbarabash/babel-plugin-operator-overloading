@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-operator-overloading",
+  "version": "0.0.1",
+  "description": "operator overloading transform plugin for babel",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "browserify -t [ babelify ] ./src/index.js ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinbarabash/babel-plugin-operator-overloading.git"
+  },
+  "author": "Kevin Barabash <kevinb@khanacademy.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinbarabash/babel-plugin-operator-overloading/issues"
+  },
+  "homepage": "https://github.com/kevinbarabash/babel-plugin-operator-overloading#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  }
+}
