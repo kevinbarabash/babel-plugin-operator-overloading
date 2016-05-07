@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-operator-overloading",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "operator overloading transform plugin for babel",
   "main": "./dist/index.js",
   "scripts": {
@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/kevinbarabash/babel-plugin-operator-overloading.git"
   },
+  "keywords": [
+    "babel-plugin"
+  ],
   "author": "Kevin Barabash <kevinb@khanacademy.org>",
   "license": "MIT",
   "bugs": {
